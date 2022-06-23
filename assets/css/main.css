@@ -1,0 +1,148 @@
+   html{
+    font-family: 'Nunito', sans-serif;
+   }
+   a{
+    text-decoration: none;
+   }
+   .title{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:#8360c3 solid 2px;
+    padding-bottom: 1em;
+    color:#1b1b1f
+   }
+   .title-item{
+     border-bottom:#8360c3 solid 2px;
+     padding-bottom:1em;
+     font-size: 2em;
+   }
+
+   .paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+   }
+
+   .container{
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #8360c3, #2ebf91);
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+   }
+   .content{
+    max-width: 960px;
+    width: 100%;
+    height:80vh;
+    background-color: white;
+    border-radius: 4px;
+    overflow: scroll;
+    position: relative;
+   }
+
+   .actions{
+    position:absolute;
+    top: 1em;
+    right: 1em;
+   }
+
+   .close{
+    height: 40px;
+    width: 40px;
+    color:white;
+    border-radius:50%;
+    background-color:#2ebf91;
+    display:inline-block;
+    font-weight:bolder;
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .content{
+    padding:1em
+    }
+    td{
+    display:block;
+    width:100%;
+    }
+    td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#19191f
+    }
+    th{
+    display:none;
+}
+    
+
+   .table{
+    width: 100%;
+    border-spacing:0;
+   }
+
+   .table td, .table th{
+    padding: 1em;
+    text-align: left;
+   }
+
+  .table th{
+    color: #006d77;
+  }
+
+   a:hover{
+    opacity: 0.8;
+    color: #545cc4;
+   }
+
+     .position{
+        background-color:#545cc4 ;
+        color:white;
+        padding:10px;
+        border-radius: 4px;
+        margin-right: 0.5em;
+     }
+
+     .adress{
+        color:#006d77;
+        font-weight: bold;
+     }
+
+     .main-image{
+      float:left;
+      margin-right: 1em;
+      height: 300px;
+   }
+
+   .text{
+    position: relative;
+    top: 4em;
+   }
+
+   .table tr:nth-child(even){background-color:#fce1eb ;}
+  
+   @media(min-width:900px){
+    th{
+        display:table-cell;
+    }
+    td{
+        width: auto;
+        display:table-cell;
+    }
+
+    td:nth-of-type(1){
+        font-size :1em;
+    }
+    .content{
+        padding: 1.8em;
+    }
+   }
+   @media (min-height:550px){
+    .content{
+        height: 500px;
+    }
+}
